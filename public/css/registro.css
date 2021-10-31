@@ -14,16 +14,21 @@ img{
 }
 
 main{
-    
-    width: 100%;
+  width: 100%;
 }
-
 .camposLogin { 
+    width: auto;
+    height: auto;
     text-align:left;
     margin : 20px 50px 3px 50px;
-    padding: 20px 300px 20px 300px;;
-    
+    padding: 20px 300px 20px 300px;
   }
+
+ p{
+  font-size: 10;
+  font-style: italic;
+}
+
 
 button{
     background-color: #eba917;
@@ -35,16 +40,15 @@ button{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    margin-left: 350px;
+    margin-left: 430px;
   }
 
-  .linkCrearCuenta{
+
+  .linkLogin{
       margin: 10px;
-      padding: 20px 300px 20px 340px;
-      text-align: left;
+      padding: 20px 300px 20px 360px;
+      margin-left: 30px;
   }
 
-  /* @media (max-width: 1440px) {
-    button{background-color: red;
-       };
-    }
+ 
+  
