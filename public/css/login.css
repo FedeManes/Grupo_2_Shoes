@@ -10,24 +10,38 @@ header div.logo{
   }
   
 img{
-    width: 18%;
+    width: 13%;
 }
 
 main{
     
     width: 100%;
+   
 }
 
 .camposLogin { 
-    text-align:left;
+    display: flex;
+    flex-direction: column;
+    text-align:certer;
     margin : 20px 50px 3px 50px;
-    padding: 20px 300px 20px 300px;;
+    padding: 20px 300px 20px 300px;
+    align-items: center;
     
   }
 
-button{
+  .submitButton{
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+    margin-right: 250px;
+    align-items: center;
+
+     
+  } 
+
+  button{
+    
     background-color: #eba917;
-    border: none;
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
@@ -35,16 +49,20 @@ button{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    margin-left: 350px;
+    margin-left: 110px;
+        
   }
 
-  .linkCrearCuenta{
-      margin: 10px;
-      padding: 20px 300px 20px 340px;
-      text-align: left;
+  
+
+   ::placeholder{
+    font-size: smaller;
+    font-style: italic;
+  }
+  input:focus { 
+    outline: none ;
+    border-color: #eba917;
+    box-shadow: 0 0 2px #eba917;
   }
 
-  /* @media (max-width: 1440px) {
-    button{background-color: red;
-       };
-    }
+ 
