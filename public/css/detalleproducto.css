@@ -96,13 +96,66 @@ ul{
 
 main{
   width: 100%;
-  height: 60vh;
+  height: 68vh;
   background-color: white;
   border-bottom: black dotted 1px;
 }
 
+footer {
+  height: 100px;;
+  background-color: #979dac;
+  box-sizing: border-box;
+  display: flex;
+ ;
+}
+
+a.linkfooter:link
+{
+  color:white;
+  font-weight: normal;
+}
 
 
+.fa-youtube, .fa-map-marker-alt, .fa-instagram, .fa-facebook-square {
+  color: white;
+}
+
+
+.contacto {
+  background-color: #979dac ;
+  display: flex;
+  flex-wrap : wrap;
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+  width: fit-content;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: smaller;
+  justify-content: center;
+}
+
+
+.acerca {
+  display: none;
+}
+
+.servicios {
+  display: none;
+}
+
+.socialmedia {
+  
+    display: flex;
+    width: 40vh;
+    justify-content: space-between;
+    align-items:center;
+    margin-left: auto;
+    color: white;
+        
+  }
+
+  
 
 button{
     background-color: #eba917;
@@ -130,5 +183,32 @@ button{
     {
       display: none;
     }
+
+    .acerca{
+      background-color: #979dac ;
+      display: flex;
+      flex-wrap : wrap;
+      flex-direction: column;
+      justify-content: center;
+      color: white;
+      width: fit-content;
+      margin-right: 20px;
+      font-size: smaller;
+      font-weight: bold;
+    }
+
+    .servicios{
+      background-color: #979dac ;
+      display: flex;
+      flex-wrap : wrap;
+      flex-direction: column;
+      color: white;
+      width: fit-content;
+      font-size: smaller;
+      margin-right: 20px;
+      justify-content: center;
+      font-weight: bold;
+    }
+    
   }
     
