@@ -16,13 +16,83 @@
     background-color: #e6e9ef;
     height: 10hv;
     box-sizing: border-box;
+    display: flex;
+    padding: 8px  ;
+    justify-content: space-between;
   }
 
+  .logo {
+    text-align: center;
+  }
+  .left-navbar {
+    display: flex;
+    width: 40vh;
+    justify-content: space-between;
+    align-items:center;
+    
+  }
+
+  .right-navbar
+  {
+    display: flex;
+    width: 40vh;
+    justify-content: space-between;
+    align-items:center;
+    
+  }
 img{
-    padding : 10px;
-    width: 10%;
+  max-width: 100%;
+  max-height: 100%;
+    width: 30%;
 }
 
+
+  a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+div.burger-menu{
+  text-align: center;
+}
+
+div.burger-menu i{
+
+  border-radius: 5px;
+  color: black;
+  font-size: 30px;
+  display: block;
+  height: 25px;
+  margin: auto;
+  padding: 10px;
+  width: 40px;
+  
+}
+
+div.right-navbar i{
+  border-radius: 5px;
+  color: black;
+  font-size: 30px;
+  display: block;
+  height: 25px;
+  margin: auto;
+  padding: 10px;
+  width: 40px;
+ 
+}
+ul{
+  list-style: none;
+  display: flex;
+
+
+}
+
+.center-navbar{
+ 
+  display: none;
+}
 
 main{
   width: 100%;
@@ -30,34 +100,8 @@ main{
   background-color: white;
   border-bottom: black dotted 1px;
 }
-.camposLogin { 
-    
-    width: auto;
-    height: auto;
-    text-align:center;
-    margin : 20px 50px 3px 50px;
-    font-size: small;
-    font-weight: bold;
-   
 
-  }
 
-  ::placeholder{
-    font-size: smaller;
-    font-style: italic;
-  }
-  input:focus { 
-    outline: none ;
-    border-color: #eba917;
-    box-shadow: 0 0 2px #eba917;
-  }
-
- 
-
- .camposlogin.p{
-  font-size: 7;
-  font-style: italic;
-}
 
 
 button{
@@ -71,11 +115,20 @@ button{
   }
 
 
-  .linkLogin{
-     /* margin: 10px;
-      padding: 20px 300px 20px 360px;
-      margin-left: 30px;*/
-  }
 
  
-  
+  @media (min-width: 1024px){
+    .center-navbar{
+      display: flex;
+      justify-content: space-between;
+      align-items:center; 
+      font-size: medium;
+      flex-grow: 0.8;
+      
+    }
+    .burger-menu
+    {
+      display: none;
+    }
+  }
+    
