@@ -19,7 +19,7 @@
 <header>
     <div class = "top-header">
         <div class="topbar"></div>
-            <div class="menu"> 
+            <nav class="menu"> 
                
                 <div class = "left-navbar">
                     <div class="burger-menu">
@@ -27,7 +27,7 @@
                     </div>
                     <div class = "logo">
                         <a href="/index.html">
-                            <img src="/images/LOGO ZAPATO.png" >
+                            <img class = "imagenlogo" src="/images/LOGO ZAPATO.png" >
                         </a>
                     </div>                   
                 </div>
@@ -46,15 +46,68 @@
                     <li><a href="#"><i class="fas fa-shopping-cart fa-2x"></i></a></li>
                 </ul>
 
-            </div>
+            </nav>
         </div>
     </div>
 </header>
 
 <main>
-           <div class = "productdetail" >
-                
+   
+            <div class = "fotos360" >
+                <img class ="img360" src="/images/Suede Classic rojo atras.png" >
+                <img class ="img360" src="/images/suede classic rojo arriba.png" >
+                <img class ="img360" src="/images/suede classic rojo abajo y arriba.png">
             </div>
+            <div class ="fotodetalle">
+                <img class ="mainphoto" src="/images/suede classic rojo.png" >
+                <p>Suede llegó a la escena en 1968 y ha estado cambiando el juego desde entonces. Ha sido usado por el ícono Este año, relanzamos el Suede con combinaciones de colores frescas y sutiles actualizaciones de diseño. Clásico como siempre.</p><br>
+            </div>
+            <div class = "NombrePagoColorTalla" >
+                <p>Suede Classic XXI </p><br>
+                <p>$10.000</p>
+                <br><br>
+                <p>Color:</p>
+                <section class="colores">
+                    <label>
+                        <input type="radio" name="colores" value="small" checked>
+                        <img src="/images/suede blue.jpg">
+                    </label>
+                    <label>
+                        <input type="radio" name="colores" value="small" checked>
+                        <img src="/images/suede red2.jpg">
+                    </label>
+                    <label>
+                        <input type="radio" name="colores" value="small" checked>
+                        <img src="/images/suede black.jpg">
+                    </label>
+                </section
+                            <p>Talla :</p>
+                <div class="talla" style="width:200px;">
+
+                    <select>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                    </select>
+
+                </div>
+                <br>
+                <button type="submit" onclick="alert('formulario enviado ')">Agregar al carrito </button>
+                <br><br><br><br><br>
+            
+
+            </div>
+    
+            
           
           
                 
