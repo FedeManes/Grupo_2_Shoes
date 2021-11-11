@@ -20,6 +20,10 @@ app.get("/detalle", (req, res)=> {
     res.sendFile(__dirname + "/views/detalle.html")
 });
 
+app.get("/shoppingCart", (req, res)=> {
+    res.sendFile(__dirname + "/views/shoppingcart.html")
+});
+
 app.listen(3000, ()=>{
     console.log('Servidor funcionando puerto 3000');
 });
