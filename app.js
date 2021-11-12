@@ -5,7 +5,7 @@ const app = express();
 app.use(express.static("public"))
 
 app.get("/", (req, res)=> {
-    res.sendFile(__dirname + "/views/index.html")
+    res.sendFile(__dirname + "/views/home.html")
 });
 
 app.get("/login", (req, res)=> {
