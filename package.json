@@ -1,23 +1,16 @@
 {
-  "name": "grupo_2_shoes",
-  "version": "1.0.0",
-  "description": "Shoes e-commerce\r Trello: https://trello.com/invite/b/HPqNSa88/98bb395c7ff5f58c1bd228404750573b/proyecto-integrador-dg-g2\r Repositorio: https://github.com/FedeManes/Grupo_2_Shoes\r Equipo: Mauricio Ferrer\r         Gabriel Manes\r         Federico Manes",
-  "main": "app.js",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
+  "name": "sprint3---prueba-local",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FedeManes/Grupo_2_Shoes.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/FedeManes/Grupo_2_Shoes/issues"
-  },
-  "homepage": "https://github.com/FedeManes/Grupo_2_Shoes#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
 }
