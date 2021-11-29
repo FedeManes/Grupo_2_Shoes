@@ -11,17 +11,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //Definicion de routers 
 var indexRouter = require('./routes/index');
-var loginRouter = require('./routes/login');
 var detailRouter = require('./routes/detail');
-var registerRouter = require('./routes/register');
 var cartRouter = require('./routes/cart');
+var indexUsers = require('./routes/users');
+
 
 app.use('/', indexRouter);
 app.use('/index', indexRouter);
-app.use('/login', loginRouter);
 app.use('/detail', detailRouter);
-app.use('/register', registerRouter);
 app.use('/shoppingcart', cartRouter);
+app.use('/users', indexUsers)
 
 app.listen(3000, ()=>{
     console.log('Servidor funcionando puerto 3000');
