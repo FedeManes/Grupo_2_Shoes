@@ -14,13 +14,14 @@ var indexRouter = require('./routes/index');
 var detailRouter = require('./routes/detail');
 var cartRouter = require('./routes/cart');
 var indexUsers = require('./routes/users');
-
+var indexProducts  = require('./routes/products');
 
 app.use('/', indexRouter);
 app.use('/index', indexRouter);
 app.use('/detail', detailRouter);
 app.use('/shoppingcart', cartRouter);
 app.use('/users', indexUsers)
+app.use('/products', indexProducts)
 
 app.listen(3000, ()=>{
     console.log('Servidor funcionando puerto 3000');

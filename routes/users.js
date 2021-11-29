@@ -6,7 +6,7 @@ router.get('/register', function(req, res, next) {
   res.render('register', { title: 'Express' });
 });
 
-/* GET register page. */
+/* GET login page. */
 router.get('/login', function(req, res, next) {
   res.render('login', { title: 'Express' });
 });
