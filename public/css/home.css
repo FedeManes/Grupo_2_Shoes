@@ -108,6 +108,8 @@ ul{
 main{
         width: 100%;
         background-color: white;
+        overflow-y: scroll;
+        height: 68vh;        ;
     }
 
     .principal {
@@ -139,7 +141,7 @@ main{
     }
 
 .zapatohome {      
-      width: 50%;
+      width: 25%;
       display: block;
       margin: auto;
   }
