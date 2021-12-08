@@ -1,30 +1,35 @@
 const express = require("express");
 const path = require('path');
-const { get } = require("http");
 const app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'src/views'));
 app.set('view engine', 'ejs');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Definicion de routers 
-var indexRouter = require('./routes/index');
-var detailRouter = require('./routes/detail');
-var cartRouter = require('./routes/cart');
-var indexUsers = require('./routes/users');
-var indexProducts  = require('./routes/products');
+const indexRouter = require('./src/routes/index');
+const detailRouter = require('./src/routes/detail');
+const cartRouter = require('./src/routes/cart');
+const loginRouter = require('./src/routes/login');
+const registerRouter = require('./src/routes/register');
+const indexProducts  = require('./src/routes/products');
 
-app.use('/', indexRouter);
-app.use('/index', indexRouter);
-app.use('/detail', detailRouter);
-app.use('/shoppingcart', cartRouter);
-app.use('/users', indexUsers)
-app.use('/products', indexProducts)
+//uso de routers
+app.get('/', indexRouter);
+app.get('/index', indexRouter);
+app.get('/detail', detailRouter);
+app.get('/shoppingcart', cartRouter);
+app.get('/users/login', loginRouter)
+app.get('/users/register', registerRouter)
+app.get('/products', indexProducts)
 
-app.listen(3000, ()=>{
-    console.log('Servidor funcionando puerto 3000');
+// Definicion de puerto y a la escucha
+let port = 3000;
+
+app.listen(port, ()=>{
+    console.log('Servidor funcionando en puerto ' + port);
 });
 
 module.exports = app;

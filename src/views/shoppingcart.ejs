@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;386;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    
+    <%- include('./partials/head') %>
+
     <link rel="stylesheet" href="/css/shoppingcart.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    
     <title>Shopping Cart</title>
 </head>
 <body>
@@ -122,29 +118,8 @@
             </div>
         </section>
     </main>
-    <footer>
-        <ul class= "contacto"> CONTACTO
-            <li><a class="linkfooter"href="#">Servicio al cliente</a></li>
-            <li><a class="linkfooter"href="#">Tiendas</a></li>
-            <li><a class="linkfooter"href="#">Reclamos </a></li>
-        </ul>
-        <ul class= "acerca"> ACERCA DE
-            <li><a class="linkfooter"href="#">Nuestra compañia</a></li>
-            <li><a class="linkfooter"href="#">Sostenibilidad</a></li>
-            <li><a class="linkfooter"href="#">Accionistas </a></li>
-           
-        </ul>
-        <ul class= "servicios"> SERVICIOS
-            <li><a class="linkfooter" href="#">Envios nacionales</a></li>
-            <li><a class="linkfooter"href="#">Envios internacionales</a></li>
-            <li><a class="linkfooter"href="#">Regalos </a></li>
-        </ul>
-        <ul class= "socialmedia">
-            <li><a class="footerlink" href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram fa-2x"></i></i></a></li>
-            <li><a href="#"><i class="fab fa-youtube fa-2x"></i></i></a></li>
-            <li><a href="#"><i class="fas fa-map-marker-alt fa-2x"></i></a></li>
-        </ul>
-    </footer>
+
+    <%- include('./partials/footer') %>
+   
 </body>
 </html>
