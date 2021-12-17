@@ -4,6 +4,6 @@ const controller = require ('../controllers/mainController');
 
 /* GET login page. */
 
-router.get('/users/login',controller.login);
+router.get('/',controller.login);
 
 module.exports = router;

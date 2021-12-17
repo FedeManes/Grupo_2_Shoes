@@ -1,6 +1,56 @@
-[{"id":1,"name":"Nike Comics Sun","Description ":"Nike Comics Sun, a true work of art in which the shoe is like a white canvas, entirely hand painted, as if it were a real Kandinsky, directly at your feet. ","image":"zapato 1.png","Size ":2,"price":3336.07,"category":"niños"},
-{"id":2,"name":"Adidas RUN 60S 2.0","Description ":"El legado deportivo de adidas estar a flor de piel en estos tenis inspirados en el running. Fusionando lo mejor de las siluetas de las pistas de atletismo y la moda urbana moderna, lucen una estética atemporal que combina a la perfección con tu día a día. ","image":"zapato 2.png","Size ":8,"price":1359.21,"category":"mujer"},
-{"id":3,"name":"Puma Suede red","Description ":"The Suede hit the scene in 1968 and has been changing the game ever since. It’s been worn by the icons of every generation and it’s stayed classic through it all. This year, we relaunch the Suede with fresh colorways and subtle design updates. Classic as ever, for all-time.","image":"suede classic rojo.png","Size ":3,"price":998.07,"category":"niños"},
-{"id":4,"name":"Adidas donovan  issue 3","Description ":"Detailing Donovan Mitchell's path from the playground to stardom, Spida's newest signature sneakers from adidas Basketball are all about the journey.","image":"zapato 3.png","Size ":8,"price":2804.56,"category":"mujer"},
-{"id":5,"name":"Adidas boost","Description ":"Prototipo tras prototipo. Innovación tras innovación. Prueba tras prueba. Únete a nosotros en la busqueda constante de maximizar y armonizar el peso, la comodidad y en rendimiento","image":"zapato 4.png","Size ":1,"price":1315.17,"category":"hombre"},
-{"id":6,"name":"Adidas Bel air","Description ":"Prep School shoes from adidas Basketball are created in collaboration with Bel-Air Athletics and feature an inside-out, patterned upper mimicking the lining of the iconic prep school jacket","image":"zapato 5.png","Size ":3,"price":3869.49,"category":"niños"}]
+[
+    {
+        "id": 1,
+        "name": "Nike Comics Sun",
+        "Description ": "Nike Comics Sun, a true work of art in which the shoe is like a white canvas, entirely hand painted, as if it were a real Kandinsky, directly at your feet. ",
+        "image": "zapato 1.png",
+        "Size ": 2,
+        "price": 3336.07,
+        "category": "niños"
+    },
+    {
+        "id": 2,
+        "name": "Adidas RUN 60S 2.0",
+        "Description ": "El legado deportivo de adidas estar a flor de piel en estos tenis inspirados en el running. Fusionando lo mejor de las siluetas de las pistas de atletismo y la moda urbana moderna, lucen una estética atemporal que combina a la perfección con tu día a día. ",
+        "image": "zapato 2.png",
+        "Size ": 8,
+        "price": 1359.21,
+        "category": "mujer"
+    },
+    {
+        "id": 3,
+        "name": "Puma Suede red",
+        "Description ": "The Suede hit the scene in 1968 and has been changing the game ever since. It’s been worn by the icons of every generation and it’s stayed classic through it all. This year, we relaunch the Suede with fresh colorways and subtle design updates. Classic as ever, for all-time.",
+        "image": "suede classic rojo.png",
+        "Size ": 3,
+        "price": 998.07,
+        "category": "niños"
+    },
+    {
+        "id": 4,
+        "name": "Adidas donovan  issue 3",
+        "Description ": "Detailing Donovan Mitchell's path from the playground to stardom, Spida's newest signature sneakers from adidas Basketball are all about the journey.",
+        "image": "zapato 3.png",
+        "Size ": 8,
+        "price": 2804.56,
+        "category": "mujer"
+    },
+    {
+        "id": 5,
+        "name": "Adidas boost",
+        "Description ": "Prototipo tras prototipo. Innovación tras innovación. Prueba tras prueba. Únete a nosotros en la busqueda constante de maximizar y armonizar el peso, la comodidad y en rendimiento",
+        "image": "zapato 4.png",
+        "Size ": 1,
+        "price": 1315.17,
+        "category": "hombre"
+    },
+    {
+        "id": 6,
+        "name": "Adidas Bel air",
+        "Description ": "Prep School shoes from adidas Basketball are created in collaboration with Bel-Air Athletics and feature an inside-out, patterned upper mimicking the lining of the iconic prep school jacket",
+        "image": "zapato 5.png",
+        "Size ": 3,
+        "price": 3869.49,
+        "category": "niños"
+    }
+]

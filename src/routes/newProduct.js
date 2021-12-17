@@ -2,9 +2,11 @@ const express = require('express');
 const router = express.Router();
 const controller = require ('../controllers/mainController');
 
-/* GET cart page. */
+/* GET create product page. */
+router.get('/', controller.newProduct);
 
-router.get('/',controller.cart);
+/* POST create product page. */
+router.post('/', controller.saveNewProduct);
 
 
 module.exports = router;
