@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     
-    <%- include('./partials/head') %>
+    <%- include('../partials/head') %>
 
     <link rel="stylesheet" href="/css/detalleproducto.css">
     <title>The Shoes Company</title>
@@ -10,17 +10,17 @@
 </head>
 <body>
 
-    <%- include('./partials/header') %>
+    <%- include('../partials/header') %>
 
 <main>
    
             <div class = "fotos360" >
-                <img class ="img360" src="/images/<%=product.image1%>" >
-                <img class ="img360" src="/images/<%=product.image2%>" >
+                <img class ="img360" src="/images/products/<%=product.image1%>" >
+                <img class ="img360" src="/images/products/<%=product.image2%>" >
                 
             </div>
             <div class ="fotodetalle">
-                <img class ="mainphoto" src="/images/<%=product.image%>" >
+                <img class ="mainphoto" src="/images/products/<%=product.image%>" >
                 <p><%=product.description%></p><br>
             </div>
             <div class = "NombrePagoColorTalla" >
@@ -31,15 +31,15 @@
                 <section class="colores">
                     <label>
                         <input type="radio" name="colores" value="suedeblue" checked>
-                        <img src="/images/suede blue.jpg">
+                        <img src="/images/products/suede blue.jpg">
                     </label>
                     <label>
                         <input type="radio" name="colores" value="suedered2" checked>
-                        <img src="/images/suede red2.jpg">
+                        <img src="/images/products/suede red2.jpg">
                     </label>
                     <label>
                         <input type="radio" name="colores" value="suedeblack" checked>
-                        <img src="/images/suede black.jpg">
+                        <img src="/images/products/suede black.jpg">
                     </label>
                 </section
                             <p>Talla :</p>
@@ -68,7 +68,7 @@
          
 </main>
 
-<%- include('./partials/footer') %>
+<%- include('../partials/footer') %>
 
 </body>
 </html>
