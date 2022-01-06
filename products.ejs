@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <%- include('./partials/head') %>
+
+    <link rel="stylesheet" href="/css/productList.css">
+    <title>The Shoes Company</title>
+
+</head>
+<body>
+
+ <%- include('./partials/header') %>
+
+<main>
+   
+    
+    <% for ( let i=0; i<listado.length; i++ ) { %>
+        <div class = "products" >           
+        <a href="/detail/<%= listado[i].id %>">
+            <img src="/images/products/<%=listado[i].image%>">
+        </a>
+        </div>
+        <div>  
+        <p> <%= listado[i].name %></p>
+        <p> <%= listado[i].description %></p>
+        </div>
+    <% } %>   
+    
+           
+        
+            
+         
+</main>
+
+<%- include('./partials/footer') %>
+
+</body>
+</html>
