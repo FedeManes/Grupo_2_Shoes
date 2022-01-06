@@ -35,12 +35,12 @@
         "image3" :"suede classic rojo abajo y arriba.png",
         "size": [4,5,6,7,8,9,10,11,12,13,14,15],
         "price": 998.07,
-        "category": "niños",
+        "category": "hombre",
         "stock" : [3,5,6,8,9,1,0,1,3,10,12,50]
     },
     {
         "id": 4,
-        "name": "Adidas donovan  issue 3",
+        "name": "Adidas donovan issue ",
         "description": "Detailing Donovan Mitchell's path from the playground to stardom, Spida's newest signature sneakers from adidas Basketball are all about the journey.",
         "image": "zapato 3.png",
         "image1" :"donovanTop.jpg",
@@ -74,7 +74,7 @@
         "image3" :"AdidasBelair3.jpg",
         "size": [4,5,6,7,8,9,10,11,12,13,14,15],
         "price": 3869.49,
-        "category": "niños",
+        "category": "hombre",
         "stock" : [3,5,6,8,9,1,0,1,3,10,12,50]
     }
    
