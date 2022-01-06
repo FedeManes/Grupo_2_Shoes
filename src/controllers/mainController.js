@@ -4,13 +4,8 @@ const controller = {
         res.render('index');
       },
 
-    listarProductos: (req,res) => {
-        res.render('products');
-      },
+    
 
-    detalleProducto: (req,res) => {
-        res.render('detail');
-      },
       
     cart: (req,res) => {
         res.render('shoppingcart');

@@ -6,14 +6,15 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 const controller = {
 
-       listarProductos: (req,res) => {
-        res.render('products');
+    listarProductos: (req,res) => {
+      
+         res.render('products', {products})
       },
 
     detalleProducto: (req,res) => {
         let id = req.params.id
-		let product = products.find (product => product.id == id)
-		res.render('detail', {product})
+		    let product = products.find (product => product.id == id)
+		    res.render('detail', {product})
       }
 
       
